@@ -1,0 +1,126 @@
+header{
+    background-color: #1F2937;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.headerlogo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    color: #E5E7EB;
+    display: flex;
+    font-size: 18px;
+    gap: 12px;
+    list-style-type: none;
+}
+
+.largetext{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    max-width: 400px;
+}
+
+.largetext2{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.secondarytext{
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info{
+    align-items: center;
+    color: #1F2937;
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 40px;
+}
+
+.bodycontainer{
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.roundedcorners{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+.bodytext{
+    max-width: 150px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 100;
+    text-align: center;
+}
+
+.quotebg{
+    background-color: #E5E7EB;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.quotedfrom{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.button{
+    border: none;
+    border-radius: 15px;
+    background-color: #3882F6;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.calltoaction{
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
