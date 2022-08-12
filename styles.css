@@ -5,6 +5,7 @@ header{
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 20px;
 }
 
 .container{
@@ -39,8 +40,8 @@ ul{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
-    padding: 30px 100px;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 
 .secondarytext{
@@ -119,10 +120,44 @@ ul{
     width: 150px;
 }
 
+.button2{
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    width: 110px;
+    cursor: pointer;
+}
+
 .calltoaction{
     border-radius: 10px;
     background-color: #3882F6;
     color: white;
     display: flex;
-    margin: 100px 350px;
+    margin: 100px 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calltoactiontext{
+    color: white;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+}
+
+
+.footer p{
+    color: #F9FAF8;
+    font-size:20px;
 }
