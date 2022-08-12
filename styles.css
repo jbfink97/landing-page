@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 header{
     background-color: #1F2937;
     padding-left: 200px;
@@ -36,8 +39,8 @@ ul{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    padding: 30px;
-    padding-left: 100px;
+    text-align: center;
+    padding: 30px 100px;
 }
 
 .secondarytext{
@@ -121,7 +124,5 @@ ul{
     background-color: #3882F6;
     color: white;
     display: flex;
-    margin-top: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 100px 350px;
 }
