@@ -71,13 +71,6 @@ ul{
     padding-right: 200px;
 }
 
-.roundedcorners{
-    border: 5px solid #3882F6;
-    border-radius: 25px;
-    height: 150px;
-    width: 150px;
-}
-
 .bodytext{
     max-width: 150px;
     padding-top: 10px;
@@ -160,4 +153,22 @@ ul{
 .footer p{
     color: #F9FAF8;
     font-size:20px;
+}
+
+.images-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.images-text img{
+    height:200px;
+    border-radius: 10px;
+    border:solid #3882F6 3px;
+    width:200px;
+}
+
+.images-text p{
+    width:180px;
+    text-align: center;   
+    padding-bottom: 20px;
 }
