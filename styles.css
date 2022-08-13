@@ -172,3 +172,12 @@ ul{
     text-align: center;   
     padding-bottom: 20px;
 }
+
+.container img{
+    width: 400px;
+    height: 200px;
+}
+
+li{
+    cursor: pointer;
+}
